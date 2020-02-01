@@ -1,0 +1,45 @@
+.main{
+    width: 1280px;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    background-color: #FFF;
+}
+.main *{
+    position: absolute;
+    word-wrap: break-word;
+
+}
+.main img{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+}
+
+.text-title{
+    width: 750px;
+    font-size: 144px;
+    font-family: "DFPWaWaW5-GB";
+    color: #FFF;
+    bottom: 445px;
+    left: 90px;
+    padding-bottom: 10px;
+}
+.text-title.shadow{
+    -webkit-text-stroke: 14px #e0abd7 ;
+    text-shadow: 2px 4px 18px #0007;
+}
+
+.text-name{
+    font-size: 96px;
+    font-family: "Heiti SC";
+    color: #FFF;
+    top: 355px;
+    left: 100px;
+    padding-top: 20px;
+}
+.text-name.shadow{
+    -webkit-text-stroke: 14px #e0abd7 ;
+    text-shadow: 2px 4px 18px #0007;
+}
